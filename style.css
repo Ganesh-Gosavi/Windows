@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* background-image: url(./vid.gif); */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    overflow: hidden;
+}
+
+.taskbar{
+    position: absolute;
+    bottom: 0;
+    display:flex ;
+    z-index: 120;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: #201e27;;
+    
+    
+}
+.startmenu{
+    position: absolute;
+    /* bottom: 60px; */
+    bottom: -700px;
+
+    width: 100%;
+    text-align: center;
+    height: 700px;
+    transition: all 0.3s ease-in;
+    
+}
+.startmenu img{
+    height: 700px;
+    border-radius: 50px;
+}
+
+
+.right{
+    justify-self: flex-end;
+    position:absolute;
+    right: 0;
+    height: 50px;
+    
+}
+.icons img{
+width: 200px;
+}
+/* .icons{
+    padding: 8px;
+    margin: 100px;
+} */
